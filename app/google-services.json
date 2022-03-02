@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359009828450",
+    "project_id": "seniordesign-1f899",
+    "storage_bucket": "seniordesign-1f899.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359009828450:android:54b43efcc70f9137b0db3b",
+        "android_client_info": {
+          "package_name": "com.example.tennis_vital_fuse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359009828450-0v6gvv4vpcfr16jr6rff8u9riaoqtd8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHOeI4zgzhilVwp0f1YcUXVSxgwKLH0-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359009828450-0v6gvv4vpcfr16jr6rff8u9riaoqtd8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
