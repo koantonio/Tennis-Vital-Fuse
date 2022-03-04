@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_main.xml" value="0.1802536231884058" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_match_tracker.xml" value="0.1802536231884058" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_register_user.xml" value="0.1802536231884058" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.15729166666666666" />
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />

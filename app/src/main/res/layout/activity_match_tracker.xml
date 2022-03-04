@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:background="#414141">
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MatchTracker">
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#000000"
+android:backgroundTint="#414141"
+tools:context=".MatchTracker">
 
     <TextView
         android:id="@+id/banner"
@@ -34,282 +30,359 @@ android:background="#414141">
         android:id="@+id/tempGraph"
         android:layout_width="160dp"
         android:layout_height="148dp"
+        android:layout_marginTop="68dp"
         android:fontFamily="serif"
         android:text="Graph Place Holder"
         android:textAlignment="center"
         android:textColor="#483BFF"
         android:textSize="40sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="57dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/equalOne"
         android:layout_width="50dp"
         android:layout_height="39dp"
+        android:layout_marginTop="248dp"
         android:fontFamily="serif"
         android:text="="
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="251dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/equalTwo"
         android:layout_width="50dp"
         android:layout_height="39dp"
+        android:layout_marginTop="312dp"
         android:fontFamily="serif"
         android:text="="
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="314dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/equalThree"
         android:layout_width="50dp"
         android:layout_height="39dp"
+        android:layout_marginTop="376dp"
         android:fontFamily="serif"
         android:text="="
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="376dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/equalFour"
         android:layout_width="50dp"
         android:layout_height="39dp"
+        android:layout_marginTop="436dp"
         android:fontFamily="serif"
         android:text="="
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="438dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/equalFive"
         android:layout_width="50dp"
         android:layout_height="39dp"
+        android:layout_marginTop="500dp"
         android:fontFamily="serif"
         android:text="="
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="501dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/equalSix"
         android:layout_width="50dp"
         android:layout_height="39dp"
+        android:layout_marginTop="560dp"
         android:fontFamily="serif"
         android:text="="
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="563dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/percentErrors"
         android:layout_width="90dp"
         android:layout_height="53dp"
+        android:layout_marginTop="180dp"
         android:fontFamily="serif"
         android:text="% of errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/forehandErrors"
         android:layout_width="123dp"
-        android:layout_height="41dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="236dp"
         android:fontFamily="serif"
         android:text="Forehand Errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="235dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/serveErrors"
         android:layout_width="123dp"
         android:layout_height="41dp"
+        android:layout_marginTop="556dp"
         android:fontFamily="serif"
         android:text="Serve Errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="547dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/overheadErrors"
-        android:layout_width="123dp"
-        android:layout_height="41dp"
+        android:layout_width="124dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="484dp"
         android:fontFamily="serif"
         android:text="Overhead Errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/volleyErrors"
         android:layout_width="123dp"
         android:layout_height="41dp"
+        android:layout_marginTop="432dp"
         android:fontFamily="serif"
         android:text="Volley Errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="422dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/backhandErrors"
-        android:layout_width="123dp"
-        android:layout_height="41dp"
+        android:layout_width="125dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="304dp"
         android:fontFamily="serif"
         android:text="Backhand Errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/approachErrors"
-        android:layout_width="123dp"
-        android:layout_height="41dp"
+        android:layout_width="118dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="360dp"
         android:fontFamily="serif"
         android:text="Approach Shot Errors"
         android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/forehandEntry"
         android:layout_width="87dp"
         android:layout_height="55dp"
+        android:layout_marginTop="232dp"
         android:ems="10"
         android:hint="#"
         android:inputType="text"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="235dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/backhandEntry"
         android:layout_width="87dp"
         android:layout_height="55dp"
+        android:layout_marginTop="296dp"
         android:ems="10"
         android:hint="#"
         android:inputType="text"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/approachEntry"
         android:layout_width="87dp"
         android:layout_height="55dp"
+        android:layout_marginTop="360dp"
         android:ems="10"
         android:hint="#"
         android:inputType="text"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/overheadEntry"
         android:layout_width="87dp"
         android:layout_height="55dp"
+        android:layout_marginTop="484dp"
         android:ems="10"
         android:hint="#"
         android:inputType="text"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/volleyEntry"
         android:layout_width="87dp"
         android:layout_height="55dp"
+        android:layout_marginTop="420dp"
         android:ems="10"
         android:hint="#"
         android:inputType="text"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="422dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/serveEntry"
         android:layout_width="87dp"
         android:layout_height="55dp"
+        android:layout_marginTop="544dp"
         android:ems="10"
         android:hint="#"
         android:inputType="text"
         android:textSize="24sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="547dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="177dp"
         android:layout_height="63dp"
+        android:layout_marginTop="620dp"
         android:background="#000000"
         android:backgroundTint="#FFFFFF"
         android:foregroundTint="#FFFFFF"
         android:text="Complete Entry"
         app:iconTint="#FFFFFF"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="616dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -325,5 +398,4 @@ android:background="#414141">
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
 
