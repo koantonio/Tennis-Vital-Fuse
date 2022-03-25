@@ -2,6 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
+android:background="#000000"
+android:backgroundTint="#414141"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".RegisterUser">
@@ -12,11 +14,12 @@ tools:context=".RegisterUser">
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="32dp"
-    android:fontFamily="sans-serif-black"
-    android:text="Tennis App"
+    android:fontFamily="serif"
+    android:text="Tennis Vital-Fuse"
     android:textAlignment="center"
     android:textSize="60sp"
     android:textStyle="bold"
+    android:textColor="#FFEB3B"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintLeft_toLeftOf="parent"
@@ -91,7 +94,6 @@ tools:context=".RegisterUser">
     android:text="REGISTER USER"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
-
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toStartOf="parent" />
 

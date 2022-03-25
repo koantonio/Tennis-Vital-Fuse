@@ -50,25 +50,26 @@ tools:context=".RegisterUser">
         android:layout_width="185dp"
         android:layout_height="65dp"
         android:layout_marginStart="114dp"
-        android:layout_marginTop="29dp"
         android:layout_marginEnd="112dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="64dp"
         android:text="Manual Entry"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/matchTracker" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/matchTracker"
         android:layout_width="140dp"
         android:layout_height="53dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="136dp"
+        android:layout_marginTop="676dp"
         android:text="Match Tracker"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/step" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/signOut"
