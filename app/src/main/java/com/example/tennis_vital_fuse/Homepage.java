@@ -25,14 +25,6 @@ public class Homepage extends AppCompatActivity implements View.OnClickListener 
 
         logout=(Button)findViewById(R.id.signOut);
         logout.setOnClickListener(this);
-
-       /* logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(Homepage.this,MainActivity.class));
-            }
-        });*/
         }
         @Override
         public void onClick(View v) {
