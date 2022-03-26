@@ -88,6 +88,7 @@ public class EditProfilePage extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile_page);
 
+
         profilepic = findViewById(R.id.profilepic);
         editname = findViewById(R.id.editname);
         set = findViewById(R.id.setting_profile_image);
