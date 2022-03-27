@@ -2,6 +2,7 @@ package com.example.tennis_vital_fuse;
 
 
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -64,8 +65,8 @@ public class AdapterPosts extends RecyclerView.Adapter<com.example.tennis_vital_
         return new MyHolder(view);
     }
 
-    @Override
-    public void onBindViewHolder(@NonNull final MyHolder holder, final int position) {
+    @Override //////////////////////////////////////////////
+    public void onBindViewHolder(@NonNull final MyHolder holder, @SuppressLint("RecyclerView") final int position) {
         final String uid = modelPosts.get(position).getUid();
         String nameh = modelPosts.get(position).getUname();
         final String titlee = modelPosts.get(position).getTitle();

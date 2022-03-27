@@ -35,10 +35,11 @@
         <entry key="app/src/main/res/layout/dialog_update_password.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_add_post.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_chat_list.xml" value="0.38958333333333334" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2173681640625" />
         <entry key="app/src/main/res/layout/fragment_users.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/layout/ic_search.xml" value="0.1" />
         <entry key="app/src/main/res/layout/row_posts.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_users.xml" value="0.1" />
         <entry key="app/src/main/res/menu/main_menu.xml" value="0.1" />
         <entry key="app/src/main/res/menu/menu_nav.xml" value="0.33" />
       </map>

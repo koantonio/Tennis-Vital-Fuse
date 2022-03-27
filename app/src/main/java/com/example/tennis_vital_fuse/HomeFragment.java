@@ -150,7 +150,7 @@ public class HomeFragment extends Fragment {
 
         if (item.getItemId() == R.id.logout) {
             firebaseAuth.signOut();
-            /////////////////////////////////////////
+            ///////////////////////////////////////////
             startActivity(new Intent(getContext(), MainActivity.class));
             getActivity().finish();
         }
