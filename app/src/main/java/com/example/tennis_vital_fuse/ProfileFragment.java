@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -41,6 +42,7 @@ public class ProfileFragment extends Fragment {
     RecyclerView postrecycle;
     FloatingActionButton fab;
     ProgressDialog pd;
+    Button MatchTracker;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -65,6 +67,7 @@ public class ProfileFragment extends Fragment {
         fab = view.findViewById(R.id.fab);
         pd = new ProgressDialog(getActivity());
         pd.setCanceledOnTouchOutside(false);
+        MatchTracker = view.findViewById(R.id.matchTracker);
         Query query = databaseReference.orderByChild("email").equalTo(firebaseUser.getEmail());
 
         query.addValueEventListener(new ValueEventListener() {
@@ -97,6 +100,13 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), EditProfilePage.class));
+            }
+        });
+
+        MatchTracker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),MatchTracker.class));
             }
         });
         return view;
