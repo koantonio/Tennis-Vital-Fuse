@@ -7,6 +7,16 @@
     android:background="#F1EDED"
     tools:context=".ProfileFragment">
 
+    <Button
+        android:id="@+id/practiceTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="12dp"
+        android:text="Practice Tracker" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -86,8 +96,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="65dp"
         android:text="Match Tracker" />
 
 

@@ -27,10 +27,31 @@
             android:name=".Dashboard"
             android:exported="false" />
         <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPassword"
             android:exported="false" />
         <activity
             android:name=".MatchTracker"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeTrackerSelection"
+            android:exported="false" />
+        <activity
+            android:name=".ForehandPracticeTracker"
+            android:exported="false" />
+        <activity
+            android:name=".BackhandPracticeTracker"
+            android:exported="false" />
+        <activity
+            android:name=".VolleyOverheadPracticeTracker"
+            android:exported="false" />
+        <activity
+            android:name=".ServePracticeTracker"
+            android:exported="false" />
+        <activity
+            android:name=".MiscPracticeTracker"
             android:exported="false" />
         <activity
             android:name=".Homepage"

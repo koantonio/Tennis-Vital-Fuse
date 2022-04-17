@@ -1,6 +1,5 @@
 package com.example.tennis_vital_fuse;
 
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -43,6 +42,7 @@ public class ProfileFragment extends Fragment {
     FloatingActionButton fab;
     ProgressDialog pd;
     Button MatchTracker;
+    Button PracticeTrackerSel;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -68,6 +68,7 @@ public class ProfileFragment extends Fragment {
         pd = new ProgressDialog(getActivity());
         pd.setCanceledOnTouchOutside(false);
         MatchTracker = view.findViewById(R.id.matchTracker);
+        PracticeTrackerSel = view.findViewById(R.id.practiceTracker);
         Query query = databaseReference.orderByChild("email").equalTo(firebaseUser.getEmail());
 
         query.addValueEventListener(new ValueEventListener() {
@@ -107,6 +108,13 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),MatchTracker.class));
+            }
+        });
+
+        PracticeTrackerSel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), PracticeTrackerSelection.class));
             }
         });
         return view;

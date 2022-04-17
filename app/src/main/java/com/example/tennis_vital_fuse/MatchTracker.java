@@ -1,7 +1,5 @@
 package com.example.tennis_vital_fuse;
 
-//import java.util.Random;
-
 import androidx.appcompat.app.AppCompatActivity;
 import java.math.BigDecimal;
 import java.math.RoundingMode;

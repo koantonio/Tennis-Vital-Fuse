@@ -3,7 +3,7 @@
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:background="#000000"
-android:backgroundTint="#414141"
+android:backgroundTint="#FFFFFF"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".RegisterUser">
@@ -19,7 +19,7 @@ tools:context=".RegisterUser">
     android:textAlignment="center"
     android:textSize="60sp"
     android:textStyle="bold"
-    android:textColor="#FFEB3B"
+    android:textColor="#555555"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintLeft_toLeftOf="parent"

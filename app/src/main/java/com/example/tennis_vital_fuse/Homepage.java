@@ -9,7 +9,6 @@ import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-
 public class Homepage extends AppCompatActivity implements View.OnClickListener {
 
     private Button MatchTracker;

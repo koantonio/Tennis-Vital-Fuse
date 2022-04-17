@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    android:backgroundTint="#414141"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,7 +18,7 @@
         android:textAlignment="center"
         android:textSize="60sp"
         android:textStyle="bold"
-        android:textColor="#FFEB3B"
+        android:textColor="#555555"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
