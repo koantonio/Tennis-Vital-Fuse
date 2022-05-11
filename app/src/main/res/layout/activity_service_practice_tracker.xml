@@ -9,83 +9,13 @@
     xmlns:ap = "http://schemas.android.com/apk/res-auto"
     tools:context=".MatchTracker">
 
-    <View
-        android:layout_width="1dip"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:rotation="90"
-        android:translationY="-150dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:layout_width="1dip"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:rotation="90"
-        android:translationY="-50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:layout_width="1dip"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:rotation="90"
-        android:translationY="55dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:layout_width="1dip"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:rotation="90"
-        android:translationY="152dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:layout_width="1dip"
-        android:layout_height="fill_parent"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:rotation="90"
-        android:translationY="252dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="serif"
-        android:text="Match-Play Optimizer"
+        android:text="Serve Practice Tracker"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="24sp"
@@ -188,24 +118,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/equalSix"
-        android:layout_width="50dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="648dp"
-        android:fontFamily="serif"
-        android:text="="
-        android:textAlignment="center"
-        android:textColor="#555555"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.649"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/percentErrors"
         android:layout_width="90dp"
         android:layout_height="53dp"
@@ -224,12 +136,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/forehandErrors"
+        android:id="@+id/dsErrors"
         android:layout_width="132dp"
         android:layout_height="52dp"
         android:layout_marginTop="128dp"
         android:fontFamily="serif"
-        android:text="Forehand Errors:"
+        android:text="Deuce-Side Errors:"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="18sp"
@@ -242,30 +154,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/serveErrors"
-        android:layout_width="123dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="628dp"
-        android:fontFamily="serif"
-        android:text="Serve Errors:"
-        android:textAlignment="center"
-        android:textColor="#555555"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/overheadErrors"
+        android:id="@+id/ksErrors"
         android:layout_width="124dp"
         android:layout_height="53dp"
         android:layout_marginTop="528dp"
         android:fontFamily="serif"
-        android:text="Overhead Errors:"
+        android:text="Kick Serve Errors:"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="18sp"
@@ -278,12 +172,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/volleyErrors"
+        android:id="@+id/fsErrors"
         android:layout_width="123dp"
-        android:layout_height="41dp"
+        android:layout_height="49dp"
         android:layout_marginTop="432dp"
         android:fontFamily="serif"
-        android:text="Volley Errors:"
+        android:text="Flat Serve Errors:"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="18sp"
@@ -296,12 +190,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/backhandErrors"
+        android:id="@+id/asErrors"
         android:layout_width="119dp"
         android:layout_height="50dp"
         android:layout_marginTop="228dp"
         android:fontFamily="serif"
-        android:text="Backhand Errors:"
+        android:text="Ad-Side Errors:"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="18sp"
@@ -314,12 +208,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/approachErrors"
+        android:id="@+id/ssErrors"
         android:layout_width="118dp"
         android:layout_height="56dp"
         android:layout_marginTop="328dp"
         android:fontFamily="serif"
-        android:text="Approach Shot Errors:"
+        android:text="Slice Serve Errors:"
         android:textAlignment="center"
         android:textColor="#555555"
         android:textSize="18sp"
@@ -360,7 +254,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/fNum"
+        android:id="@+id/dsNum"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="152dp"
@@ -378,7 +272,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/fNumPercent"
+        android:id="@+id/dsNumPercent"
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_marginTop="152dp"
@@ -424,7 +318,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/bNum"
+        android:id="@+id/asNum"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="252dp"
@@ -442,7 +336,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/bNumPercent"
+        android:id="@+id/asNumPercent"
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_marginTop="252dp"
@@ -488,7 +382,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/aNum"
+        android:id="@+id/ssNum"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="356dp"
@@ -506,7 +400,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/aNumPercent"
+        android:id="@+id/ssNumPercent"
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_marginTop="356dp"
@@ -552,7 +446,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/vNum"
+        android:id="@+id/fsNum"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="452dp"
@@ -570,7 +464,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/vNumPercent"
+        android:id="@+id/fsNumPercent"
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_marginTop="452dp"
@@ -616,7 +510,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/oNum"
+        android:id="@+id/ksNum"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="552dp"
@@ -634,7 +528,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/oNumPercent"
+        android:id="@+id/ksNumPercent"
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_marginTop="552dp"
@@ -646,70 +540,6 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/plus6"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="660dp"
-        android:background="@android:color/white"
-        android:text="+"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.245"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/minus6"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="660dp"
-        android:background="@android:color/white"
-        android:text="-"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/sNum"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="644dp"
-        android:fontFamily="serif"
-        android:text="0"
-        android:textAlignment="center"
-        android:textColor="#2E4ADA"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/sNumPercent"
-        android:layout_width="90dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="644dp"
-        android:fontFamily="serif"
-        android:text="0%"
-        android:textAlignment="center"
-        android:textColor="#2E4ADA"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"

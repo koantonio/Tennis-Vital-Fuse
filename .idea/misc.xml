@@ -3,11 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable-anydpi/ic_chat_black.xml" value="0.2545" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable-anydpi/ic_send.xml" value="0.2545" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable/edit.xml" value="0.2545" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable/ic_chat.xml" value="0.2545" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable/ic_comment.xml" value="0.1" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/drawable/ic_images.xml" value="0.2545" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_backhand_practice_tracker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_dashboard.xml" value="0.20969202898550723" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_edit_profile_page.xml" value="0.1" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_forehand_practice_tracker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_forgot_password.xml" value="0.20969202898550723" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_homepage.xml" value="0.20969202898550723" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_match_tracker.xml" value="0.18432971014492755" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_misc_practice_tracker.xml" value="0.25" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_post_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_post_liked_by.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_practice_tracker_selection.xml" value="0.25" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_register_user.xml" value="0.20969202898550723" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_serve_practice_tracker.xml" value="0.8" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_service_practice_tracker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/activity_volley_overhead_practice_tracker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/dialog_update_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/fragment_add_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/fragment_chat_list.xml" value="0.20969202898550723" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/fragment_profile.xml" value="0.20652173913043478" />
         <entry key="..\:/Tennis-Vital-Fuse/app/src/main/res/layout/ic_search.xml" value="0.20652173913043478" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.224" />
