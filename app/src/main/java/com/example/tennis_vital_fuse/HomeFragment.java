@@ -33,6 +33,7 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
+
 public class HomeFragment extends Fragment {
 
     FirebaseAuth firebaseAuth;
@@ -92,7 +93,7 @@ public class HomeFragment extends Fragment {
                 for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()) {
                     ModelPost modelPost = dataSnapshot1.getValue(ModelPost.class);
                     if (modelPost.getTitle().toLowerCase().contains(search.toLowerCase()) ||
-                            modelPost.getDescription().toLowerCase().contains(search.toLowerCase())) {
+                           modelPost.getDescription().toLowerCase().contains(search.toLowerCase())) {
                         posts.add(modelPost);
                     }
                     adapterPosts = new AdapterPosts(getActivity(), posts);
@@ -143,6 +144,7 @@ public class HomeFragment extends Fragment {
 
         super.onCreateOptionsMenu(menu, inflater);
     }
+
 
     // Logout functionality
     @Override

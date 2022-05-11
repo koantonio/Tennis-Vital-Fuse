@@ -128,6 +128,7 @@ public class EditProfilePage extends AppCompatActivity{
             public void onClick(View v) {
                 pd.setMessage("Changing Password");
                 showPasswordChangeDailog();
+                //
             }
         });
 

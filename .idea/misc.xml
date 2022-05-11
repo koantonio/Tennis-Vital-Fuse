@@ -25,22 +25,31 @@
         <entry key="app/src/main/res/drawable/ic_more.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_users.xml" value="0.224" />
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_edit_profile_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.15729166666666666" />
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_match_tracker.xml" value="0.26379292805989585" />
+        <entry key="app/src/main/res/layout/activity_model_chat_list.xml" value="0.12817028985507245" />
+        <entry key="app/src/main/res/layout/activity_post_details.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_post_liked_by.xml" value="0.12817028985507245" />
         <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/dialog_update_password.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_add_post.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/fragment_chat_list.xml" value="0.38958333333333334" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2173681640625" />
-        <entry key="app/src/main/res/layout/fragment_users.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/layout/fragment_add_post.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_chat_list.xml" value="0.27941176470588236" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_users.xml" value="0.1" />
         <entry key="app/src/main/res/layout/ic_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_chat_left.xml" value="0.18585357666015626" />
+        <entry key="app/src/main/res/layout/row_chat_right.xml" value="0.23187713623046868" />
+        <entry key="app/src/main/res/layout/row_chatlist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_comments.xml" value="0.1" />
         <entry key="app/src/main/res/layout/row_posts.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/row_users.xml" value="0.1" />
-        <entry key="app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_users.xml" value="0.165" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.25" />
         <entry key="app/src/main/res/menu/menu_nav.xml" value="0.33" />
       </map>
     </option>

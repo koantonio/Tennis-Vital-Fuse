@@ -2,6 +2,7 @@ package com.example.tennis_vital_fuse;
 
 
         import android.os.Bundle;
+        import android.view.Menu;
         import android.view.MenuItem;
 
         import androidx.annotation.NonNull;
@@ -25,14 +26,19 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
+        //Actioinbar and its title
         actionBar = getSupportActionBar();
         actionBar.setTitle("Profile Activity");
+
+        //init
         firebaseAuth = FirebaseAuth.getInstance();
 
+        //bottom naviagtion
         navigationView = findViewById(R.id.navigation);
         navigationView.setOnNavigationItemSelectedListener(selectedListener);
-        actionBar.setTitle("Home");
 
+        actionBar.setTitle("Home");
         // When we open the application first
         // time the fragment should be shown to the user
         // in this case it is home fragment
@@ -41,6 +47,25 @@ public class Dashboard extends AppCompatActivity {
         fragmentTransaction.replace(R.id.content, fragment, "");
         fragmentTransaction.commit();
     }
+/*
+    @Override
+    public boolean onCreateOptionsMenu (Menu menu){
+        //inflating menu
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    //handle menu items clicks
+    @Override
+    public boolean onOptionsItemSelected (MenuItem item){
+        //get item id
+        int id = item.getItemId();
+        if (id == R.id.action_logout) {
+            firebaseAuth.signOut();
+            checkUserStatus();
+        }
+        return super.onOptionsItemSelected(item);
+    }*/
 
     private BottomNavigationView.OnNavigationItemSelectedListener selectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -80,12 +105,13 @@ public class Dashboard extends AppCompatActivity {
                     return true;
 
                 case R.id.nav_addblogs:
-                    actionBar.setTitle("Add Blogs");
+                    actionBar.setTitle("Add Post");
                     AddPostFragment fragment4 = new AddPostFragment();
                     FragmentTransaction fragmentTransaction4 = getSupportFragmentManager().beginTransaction();
                     fragmentTransaction4.replace(R.id.content, fragment4, "");
                     fragmentTransaction4.commit();
                     return true;
+
             }
             return false;
         }
